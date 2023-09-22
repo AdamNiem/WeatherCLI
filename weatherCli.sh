@@ -12,7 +12,7 @@
 ###info wanted: temperature
 
 
-echo "hello worlds"
+echo "hello worldss"
 
 ##curl "https://api.weather.gov/points/39.7456,-97.0892" 
 

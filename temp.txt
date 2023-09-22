@@ -1,0 +1,11 @@
+
+#loop through periods to get the 7 day forecast
+
+#for x in jsonOutput:
+    #pprint(x['name'])
+    #pprint(str(x['temperature']) + x['temperatureUnit'])
+    #pprint(x['detailedForecast'])
+    #print('\n\n')
+
+
+#pprint(jsonOutput[0]['temperature'])

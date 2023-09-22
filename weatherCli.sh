@@ -30,6 +30,9 @@ jsonData = json.load(sys.stdin)
 pprint(json.load(sys.stdin))
 "
 
+###Test
+output=($(python3 -c "print(239)"))
+echo "${output[0]}"
 ###Now the lat and long is used to get the office and grid coords which is needed to get the forecast for our region
 
 
@@ -43,16 +46,6 @@ from pprint import pprint;
 
 jsonOutput =  json.load(sys.stdin)['properties']['periods']
 
-#loop through periods to get the 7 day forecast
-"""
-for x in jsonOutput:
-    pprint(x['name'])
-    pprint(str(x['temperature']) + x['temperatureUnit'])
-    pprint(x['detailedForecast'])
-    print('\n\n')
-
-"""
-#pprint(jsonOutput[0]['temperature'])
 
 "
 

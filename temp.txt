@@ -1,11 +1,9 @@
+##curl -s "https://api.weather.gov/gridpoints/TOP/31,80/forecast"
 
-#loop through periods to get the 7 day forecast
+##curl "https://api.weather.gov/points/39.7456,-97.0892" 
 
-#for x in jsonOutput:
-    #pprint(x['name'])
-    #pprint(str(x['temperature']) + x['temperatureUnit'])
-    #pprint(x['detailedForecast'])
-    #print('\n\n')
+##curl "https://api.weather.gov/gridpoints/TOP/31,80/forecast"
 
-
-#pprint(jsonOutput[0]['temperature'])
+###Test
+output=($(python3 -c "print(239); print(241)"))
+echo "${output[0]}"
